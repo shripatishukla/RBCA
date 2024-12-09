@@ -1,0 +1,68 @@
+/* For Desktop View */
+.flex {
+  display: flex;
+}
+
+/* For Mobile View */
+@media (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+  }
+
+  .w-64 {
+    width: 100%; /* Sidebar takes full width on mobile */
+  }
+  .flex-1 {
+    padding: 1rem;
+  }
+}
+
+
+/* General Sidebar Styling */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #2d3748;
+}
+
+/* Responsive Layout Adjustments */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 10;
+  }
+  .sidebar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Responsive Typography */
+body {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Responsive Buttons */
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+
+
+

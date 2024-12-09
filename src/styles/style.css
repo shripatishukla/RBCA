@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  button {
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+}
+  
+
+
+/* Sidebar Active Styles */
+.bg-blue-600 {
+  background-color: #2563eb; /* Strong blue color */
+}
+.text-white {
+  color: white;
+}
+.font-bold {
+  font-weight: bold;
+}
+.hover\:bg-gray-700:hover {
+  background-color: #374151; /* Dark gray for hover */
+}
